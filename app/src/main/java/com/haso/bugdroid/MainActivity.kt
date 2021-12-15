@@ -1,5 +1,6 @@
 package com.haso.bugdroid
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -14,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         val randombut: Button = findViewById(R.id.gen_but)
         val description: TextView = findViewById(R.id.des_id)
         val posimage: ImageView = findViewById(R.id.poster_image)
+        randombut.setBackgroundColor(Color.GRAY);
         randombut.setOnClickListener{
             var randomNumber = (1..7).random()
             when(randomNumber){
