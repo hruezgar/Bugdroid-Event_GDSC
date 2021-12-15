@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:translationZ="-1dp"
-    android:background="#444444"
+    android:background="#555555"
     app:cardCornerRadius="8dp"
     tools:context=".MainActivity">
 
