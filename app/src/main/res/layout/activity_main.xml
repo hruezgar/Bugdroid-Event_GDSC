@@ -37,7 +37,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/des_id"
         android:layout_width="289dp"
         android:layout_height="144dp"
         android:layout_marginBottom="106dp"
@@ -52,6 +52,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
+        android:id="@+id/gen_but"
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:backgroundTint="#555"
