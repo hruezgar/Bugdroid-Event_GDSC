@@ -32,7 +32,7 @@
     <ImageView
         android:id="@+id/poster_image"
         android:layout_width="350dp"
-        android:layout_height="250dp"
+        android:layout_height="270dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -52,6 +52,7 @@
         android:layout_width="296dp"
         android:layout_height="350dp"
         android:layout_marginBottom="106dp"
+        android:fontFamily="@font/merriweather_black"
         android:text="Description"
         android:textAlignment="center"
         android:textSize="18sp"
