@@ -17,7 +17,9 @@ class MainActivity : AppCompatActivity() {
         val posimage: ImageView = findViewById(R.id.poster_image)
         randombut.setBackgroundColor(Color.GRAY);
         randombut.setOnClickListener{
+
             var randomNumber = (1..7).random()
+
             when(randomNumber){
                 1 -> {
                     posimage.setImageResource(R.drawable.kotlin01)
